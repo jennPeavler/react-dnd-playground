@@ -1,0 +1,15 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2rem;
+  padding: 2rem;
+  aside,
+  main {
+    border: 0.1rem solid darkgrey;
+    height: 94vh;
+  }
+
+  aside {
+    padding: 1rem;
+  }
+}
