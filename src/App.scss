@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 4fr;
   grid-gap: 2rem;
   padding: 2rem;
+
   aside,
   main {
     border: 0.1rem solid darkgrey;
@@ -12,5 +13,11 @@
 
   aside {
     padding: 1rem;
+  }
+
+  &__workpage-div {
+    border: 0.1rem darkgrey dashed;
+    height: 5rem;
+    width: 10rem;
   }
 }
